@@ -1,0 +1,46 @@
+<!DOCTYPE>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1.0, minimum-scale=1.0">
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+        <script src="//at.alicdn.com/t/font_479560_31jjtw8n9qzrggb9.js"></script>
+	</head>
+	<body>
+        <div class="container">
+            <header>
+                <div class="options">
+                    <div class="option pen action selected" id="pen">
+                        <svg class="icon">
+                            <use xlink:href="#icon-pen"></use>
+                        </svg>
+                    </div>
+                    <div class="option action eraser" id="eraser">
+                        <svg class="icon">
+                            <use xlink:href="#icon-erase"></use>
+                        </svg>
+                    </div>
+                    <div class="option clear" id="clear">
+                        <svg class="icon">
+                            <use xlink:href="#icon-trash"></use>
+                        </svg>
+                    </div>
+                    <div class="option download" id="download">
+                        <svg class="icon">
+                            <use xlink:href="#icon-downloadline"></use>
+                        </svg>
+                    </div>
+                </div>
+                <div class="colors">
+                    <div class="color" id="black"></div>
+                    <div class="color" id="red"></div>
+                    <div class="color" id="green"></div>
+                    <div class="color" id="yellow"></div>
+                </div>
+            </header>
+            <canvas id="canvas"></canvas>
+            <script src="main.js"></script>
+        </div>
+    <script type="text/javascript" src="bundle.js"></script></body>
+</html>

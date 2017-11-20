@@ -1,0 +1,68 @@
+f* {
+    margin: 0;
+    padding: 0;
+}
+.icon {
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+}
+
+header {
+    border-bottom: 1px solid #ccc;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.options {
+    display: flex;
+    padding-top: 10px;
+}
+
+.options {
+    transition: all 1s;
+}
+
+.option {
+    margin: 0 10px;
+}
+
+
+.option.selected svg {
+    fill: red;
+    transform: scale(1.2);
+}
+
+.colors {
+    float: right;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.colors div {
+    width: 15px;
+    height: 15px;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    margin: 0 3px;
+}
+
+#black {
+    background-color: black;
+}
+
+#red {
+    background-color: red;
+}
+
+#green {
+    background-color: green;
+}
+
+#yellow {
+    background-color: yellow;
+}
